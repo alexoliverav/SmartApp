@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0 rc3"
+
+    defaultConfig {
+        applicationId "cl.municipalidadsanpedrodelapaz.smartapp"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.android.support:cardview-v7:23.3.0'
+    compile 'com.android.support:palette-v7:23.3.0'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'org.sufficientlysecure:html-textview:1.3'
+    compile fileTree(include: ['StartAppInApp-3.1.0.jar'], dir: 'libs')
+    compile fileTree(include: ['httpmime-4.2.1.jar'], dir: 'libs')
+    compile fileTree(include: ['picasso-2.5.2.jar'], dir: 'libs')
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--application name-->
+    <string name="app_name">SmartApp</string>
+
+    <!--tab name-->
+    <string name="tab1">Noticias Recientes</string>
+    <string name="tab2">Categoría</string>
+
+
+    <!--about information-->
+    <string name="app_version">Version 2.0.0</string>
+    <string name="app_email">alex.rodrigo.olivera@gmail.com</string>
+    <string name="app_copyright">Copyright &#169; 2016 Alex Olivera Valdes \n Todos los derechos reservados</string>
+    <string name="title_app_name">Nombre de la Aplicación</string>
+    <string name="title_app_version">Build Version</string>
+    <string name="title_app_email">Email</string>
+    <string name="title_app_copyright">Copyright</string>
+
+
+
+    <!--google cloud messaging (gmc) push notification-->
+    <string name="google_api_sender_id">497974215921</string>
+
+
+    <!--admob banner and interstitial id-->
+    <string name="admob_banner_id">ca-app-pub-5107556562590198/2806854461</string>
+    <string name="admob_interstitial_id">0</string>
+    <!--no se que hace esto-->
+
+
+    <!--display admob setting-->
+    <!--@string/admob_on to enable admob-->
+    <!--@string/admob_off to disable admob-->
+    <string name="admob_visibility">@string/admob_off</string>
+
+
+
+    <!--value enable and disable admob-->
+    <string name="admob_off">2</string>
+
+
+
+    <!--set to @string/date_off to disable date display and date_on to enable date display-->
+    <!--set to @string/date_on to disable date display and date_on to enable date display-->
+    <string name="date_visibility">@string/date_on</string>
+
+
+
+    <!--value enable and disable date display-->
+    <string name="date_on">0</string>
+    <string name="date_off">2</string>
+
+
+
+    <!-- startapp ads -->
+    <string name="startapp_account_id">102358176</string>
+    <string name="startapp_app_id">203718681</string>
+    <!--no se que hace esto-->
+
+
+
+
+    <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">http://turismosanpedrodelapaz.cl</string>
+
+
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_home">Inicio</string>
+    <string name="drawer_favorite">Favoritos</string>
+    <string name="drawer_rate">Rate</string>
+    <string name="drawer_more">Aplicación</string>
+    <string name="drawer_setting">Configuración</string>
+    <string name="drawer_open">Abrir menu de navegación</string>
+    <string name="drawer_close">Cerrar menu de navegación</string>
+
+
+
+
+    <string name="drawer_visibility">@string/drawer_content_on</string>
+    <string name="drawer_content_on">0</string>
+    <string name="drawer_content_off">2</string>
+
+
+
+
+    <!--preferences settings-->
+    <string name="title_activity_settings">Configuración</string>
+    <string name="pref_header_notifications">Notificación</string>
+    <string name="pref_header_about">Información</string>
+    <string name="pref_header_rate">Aplicación</string>
+    <string name="pref_header_more">Más</string>
+    <string name="pref_header_notifications_summary">Notificación y Sonido</string>
+    <string name="pref_header_about_summary">Información sobre la aplicación</string>
+    <string name="pref_header_rate_summary">Give your rate and feedback</string>
+    <string name="pref_header_more_summary">Más aplicaciones del desarrollador</string>
+    <string name="pref_title_ringtone">Sonido de notificación</string>
+    <string name="pref_title_new_message_notifications">Notificaciones de nuevos mensajes</string>
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="pref_ringtone_silent">Silenciar</string>
+
+
+
+
+    <!--network-->
+    <string name="failed_connect_network">Sin conexión a Internet</string>
+    <string name="loading">Cargando&#8230;</string>
+
+
+
+    <!--others-->
+    <string name="search_query_text">Buscar&#8230;</string>
+    <string name="search_hint">Hint</string>
+    <string name="menu_share">Compartir</string>
+    <string name="stats">Estadisticas</string>
+    <string name="search">Buscar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_filter">Filtro</string>
+    <string name="img_no">No se han encontrado favoritos</string>
+    <string name="desc">desc</string>
+    <string name="menu_fav">Agregar a favoritos</string>
+    
+</resources>
